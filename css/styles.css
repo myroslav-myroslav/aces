@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.header {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: center;
+    height: 930px;
+}
+
+.figma_logo {
+    display: block;
+    margin: auto;
+}
+
+.nav_logos {
+    margin-left: 70%;
+    bottom: 100%;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 74px;
+    font-weight: 700;
+    margin-top: 270px;
+    margin-bottom: 27px;
+}
+
+.header_paragraph {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.btn_forfree {
+    background-color: #2091F9;
+    position: absolute;
+    right: 835px;
+    margin-top: 90px;
+    width: 236px;
+    height: 52px;
+    border-radius: 35px;
+}
+
+nav {
+    display: block;
+}
+
+.nav_menu {
+
+    color: #FFFFFF;
+    width: 437px;
+    margin-right: 35.5px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.nav_ul {
+    width: 437px;
+    margin-right: 35.5px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.features {
+    text-align: center;
+    margin-top: 27px;
+    font-weight: 400;
+    font-size: 28px;
+    letter-spacing: 0.2px;
+    line-height: 40px;
+    color: #374754;
+}
+
+.navbar {
+    text-align: center;
+    margin-top: 97px;
+}
+
+.opentype {
+    display: inline-block;
+}
+
+.design {
+    display: inline-block;
+    margin-left: 76px;
+    margin-right: 76px;
+}
+
+.fastest {
+    display: inline-block;
+}
